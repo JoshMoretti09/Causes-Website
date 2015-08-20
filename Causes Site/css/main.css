@@ -1,0 +1,135 @@
+/*Fonts to use
+font-family: 'Shadows Into Light', cursive;
+font-family: 'PT Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poiret One', cursive;*/
+
+
+body {
+	background-color: #DDDDDD;
+}
+
+
+.logo {
+	padding-top: 1em;
+	text-align: center;
+	color: #FF851B;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.logo::first-letter {
+	font-size: 50px;
+}
+
+.sublogo {
+	margin: 1em;
+}
+
+header{
+	background-color: #001f3f;
+}
+
+nav {
+		text-align: center;
+		border-bottom: 2px solid black;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #FF851B;
+}
+a:hover{
+	color: #7FDBFF;
+}
+
+.selected {
+	color: white;
+}
+
+#imgcontainer {
+	background-image: url("../img/catdog.jpg");
+	width: 666px;
+	height: 500px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#title1 {
+	text-align: center;
+	color: #FF851B;
+	font-family: 'Shadows Into Light', cursive;
+}
+#subtitle1 {
+	margin: 0 auto;
+	text-align: center;
+	color: #FF851B;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#colwrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#leftcol {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 294px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#rightcol {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+}
+
+#leftcol h2, #middle h2, #rightcol h2 {
+	color: #FF851B;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#leftcol p, #middle p, #rightcol p {
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bottomHomepage {
+	clear: both;
+	margin-top: 2em;
+	text-align: center;
+}
+
+#newsletter {
+	float: right;
+
+}
+#newsletter span{
+	padding: 1em;
+}
+
+footer {
+	clear: both;
+	background-color: #001f3f;
+	border-top: 3px solid black;
+}
+footer h6 {
+	color: #FF851B;
+	text-align: center;
+	padding-bottom: 2em;
+	font-family: 'Open Sans', sans-serif;
+}

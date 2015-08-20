@@ -2,42 +2,62 @@
 <html>
 <head>
 	<title>PeTopia</title>
-	<style type="text/css" src="css/main.css"></style>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|PT+Serif:400italic|Open+Sans' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
-	<header>
-		<h1>Logo</h1>
-		<h3>A Pet Is Perfection</h3>
-		<nav>
-			<ul>
-				<li><a href="index.html">Homepage</a></li>
-				<li><a href="featured.html">Featured Pets<a></li>
-				<li><a href="blog.html">Blog<a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div>
-		<h1>Featured Pet of the Month</h1>
-		<img src="img/dog1.jpg">
+	<div id="wrapper">
+		<header>
+			<div class="logo">
+				<h1>PeTopia</h1>
+				<h3 class="sublogo"><em>A Pet Is Perfection</em></h3>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html" class="selected">Homepage</a></li>
+					<li><a href="featured.html">Featured Pets<a></li>
+					<li><a href="blog.html">Blog<a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="imgcontainer">
+			<h1 id="title1"><a href="featured.html">See Our Featured Pet of the Month</a></h1>
+		</div>
+			<h4 id="subtitle1"><a href="featured.html">And find a new Furry friend today!</a></h4>
+			<div id="colwrapper">
+				<section id="leftcol">
+					<h2>Adopt a Dog Today!</h2>
+					<a href="#"><img src="img/dogpaw-print.jpeg"></a>
+					<p>Local shelters are all around the Philadelphia and places like the Pennsylvania SPCA excel in finding the right dog for the right home.</p>
+				</section>
+			
+			<section id="middle">
+				<h2>Adopt a Cat Today!</h2>
+				<a href="#"><img src="img/cat1.jpg"></a>
+				<p>The well respected Philadelphia PAWS organization with adoption centers all around the city is another great place to find kittens and puppies in need of a forever home!</p>
+			</section>
+
+			<section id="rightcol">
+				<h2>Find Local Shelters!</h2>
+				<a href="#"><img src="img/shelter.jpg"></a>
+				<p>Many local shelters relie almost solely on dontations to survive.  Help your local shelter today!</p>
+			</section>
+		</div>
+		<div id="bottomHomepage">
+			<h1>Testimonials</h1>
+			<p></p>
+		</div>
+		<div id="newsletter">
+			<span>Sign up for our Newsletter</span>
+			<input type="text" placeholder="Email Address">
+			<button>Sign Up!</button>
+		</div>
 	</div>
-	<div>
-		<h1>blah blah blah blah</h1>
-		<p>sdfhdsfksfkfklsfjslkfdsklf</p>
-		<img src="img/dog1.jpg">
-		<h1>blah blah blah blah</h1>
-		<p>sdfhdsfksfkfklsfjslkfdsklf</p>
-		<img src="img/dog1.jpg">
-		<h1>blah blah blah blah</h1>
-		<p>sdfhdsfksfkfklsfjslkfdsklf</p>
-		<img src="img/dog1.jpg">
-		<h1>blah blah blah blah</h1>
-		<p>sdfhdsfksfkfklsfjslkfdsklf</p>
-		<img src="img/dog1.jpg">
+		<footer >
+			<h6>By Josh and Sarah</h6>	
+		</footer>
 	</div>
-	<footer>
-		<h6>By Josh and Sarah</h6>
-	</footer>
 </body>
 </html>
