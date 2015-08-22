@@ -9,35 +9,41 @@ body {
 	background-color: #DDDDDD;
 }
 
+/*Nav styling below*/
 
-.logo {
-	padding-top: 1em;
+nav ul {
+	list-style: none;
+	margin:0 10px;
+	padding: 1em;
+	float: right;
+}
+
+nav li {
+	display:inline-block;
+	padding: 1em;
+}
+
+/*Header Styling*/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	width: 100%;
 	text-align: center;
-	color: #FF851B;
-	font-family: 'Shadows Into Light', cursive;
+	background: #001f3f;
+	border-bottom: 5px solid black;
 }
 
 .logo::first-letter {
 	font-size: 50px;
 }
 
-.sublogo {
-	margin: 1em;
-}
-
-header{
-	background-color: #001f3f;
-}
-
-nav {
-		text-align: center;
-		border-bottom: 2px solid black;
-}
-
-nav ul li {
-	list-style: none;
-	display: inline-block;
-	padding: 1em;
+.logo {
+	float: left;
+	padding: 10px;
+	color: #FF851B;
+	margin-left: 10px;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 a {
@@ -45,12 +51,14 @@ a {
 	color: #FF851B;
 }
 a:hover{
-	color: #7FDBFF;
+	color: #0000FF;
 }
 
 .selected {
 	color: white;
 }
+
+/*Home Page Styling*/
 
 #imgcontainer {
 	background-image: url("../img/catdog.jpg");
@@ -59,15 +67,18 @@ a:hover{
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
 
 }
 
-#title1 {
+.title1 {
 	text-align: center;
 	color: #FF851B;
 	font-family: 'Shadows Into Light', cursive;
 }
+
 #subtitle1 {
+	padding-bottom: 1em;
 	margin: 0 auto;
 	text-align: center;
 	color: #FF851B;
@@ -75,61 +86,89 @@ a:hover{
 }
 
 #colwrapper {
-	width: 960px;
+	width: 900px;
 	margin: 0 auto;
+	border-top: 5px solid black;
+	/*width: 95%;
+	padding: 1em;
+	margin: 1em auto; 
+	-webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;*/
 }
 
 #leftcol {
-	width: 290px;
+	width: 260px;
 	float: left;
 	padding: 5px 15px;
 }
 
 #middle {
-	width: 294px;
+	width: 260px;
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
 }
 
 #rightcol {
-	width: 270px;
+	width: 260px;
 	padding: 5px 15px;
 	float: left;
 }
 
-#leftcol h2, #middle h2, #rightcol h2 {
+#leftcol h2, #middle h2, #rightcol h2, #bottomHomepage h1, #title2 {
 	color: #FF851B;
 	font-family: 'Shadows Into Light', cursive;
 }
 
-#leftcol p, #middle p, #rightcol p {
-	color: #000;
+#leftcol p, #middle p, #rightcol p, #bottomHomepage p, .featuredText {
+	color: #001f3f;
 	font-family: 'Open Sans', sans-serif;
+}
+
+#title2 {
+	clear: both;
+	text-align: center;
 }
 
 #bottomHomepage {
 	clear: both;
+	margin: 0 auto;
 	margin-top: 2em;
 	text-align: center;
+	width: 60%;
+	-webkit-column-count: 2;
+    -moz-column-count: 2; 
+    column-count: 2;
 }
 
-#newsletter {
-	float: right;
-
-}
 #newsletter span{
 	padding: 1em;
 }
+
+/*Featured Pet Page Styling*/
+.featuredPage {
+	padding: 1em;
+	margin: 0 auto;
+	-webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;
+}
+#pageBreak {
+	margin-right: 50px;
+	margin-left:50px;
+	border-top: 5px solid black;
+}
+
+
+/*Footer Styling*/
 
 footer {
 	clear: both;
 	background-color: #001f3f;
 	border-top: 3px solid black;
-}
-footer h6 {
-	color: #FF851B;
 	text-align: center;
+	color: #FF851B;
 	padding-bottom: 2em;
 	font-family: 'Open Sans', sans-serif;
 }

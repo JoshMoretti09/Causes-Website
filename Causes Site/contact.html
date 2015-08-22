@@ -3,28 +3,34 @@
 <head>
 	<title>PeTopia</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="animsition/animsition.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|PT+Serif:400italic|Open+Sans' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
 	<div id="wrapper">
-		<header>
-			<div class="logo">
-				<h1>PeTopia</h1>
-				<h3 class="sublogo"><em>A Pet Is Perfection</em></h3>
-			</div>
+		<header class="header">
+			<h1 class="logo animsition"><a href="index.html">PeTopia | A Pet Is Perfection</a></h1>
 			<nav>
 				<ul>
-					<li><a href="index.html">Homepage</a></li>
-					<li><a href="featured.html">Featured Pets<a></li>
-					<li><a href="blog.html">Blog<a></li>
-					<li><a href="contact.html" class="selected">Contact Us</a></li>
+					<li><a href="index.html" class="selected animsition">Homepage</a></li>
+					<li><a href="featured.html" class="animsition">Featured Pets<a></li>
+					<li><a href="blog.html" class="animsition">Blog<a></li>
+					<li><a href="contact.html" class="animsition">Contact Us</a></li>
 				</ul>
 			</nav>
 		</header>
-		<footer>
-			<h6>By Josh and Sarah</h6>
+		<footer >
+			<h6>By Josh and Sarah</h6>	
+			<div id="newsletter">
+				<span>Sign up for our Newsletter</span>
+				<input type="text" placeholder="Email Address">
+				<button>Sign Up!</button>
+			</div>
 		</footer>
 	</div>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="animsition/jquery.animsition.min.js"></script>
+	<script src="jquery.sticky.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
