@@ -31,17 +31,4 @@ $(".dog").mouseover(function(){
 
 
 
-// $(".featuredText").hide()
-
-// $(".featuredImg").click(function(){
-//   $(".featuredImg").animate({
-//     "height": "300px",
-//     "width": "300px"
-//   },2000)
-
-//   $(".featuredText").show(2000)
-// });
-
-
-
 

@@ -110,6 +110,10 @@ a:hover{
 	margin: 0px 5px 5px 5px;
 }
 
+.dog {
+	border-radius: 50px;
+}
+
 #rightcol {
 	width: 260px;
 	padding: 5px 15px;
@@ -121,9 +125,14 @@ a:hover{
 	font-family: 'Shadows Into Light', cursive;
 }
 
-#leftcol p, #middle p, #rightcol p, #bottomHomepage p, .featuredText {
+#leftcol p, #middle p, #rightcol p, #bottomHomepage p, .featuredText,  .featuredPage p {
 	color: #001f3f;
 	font-family: 'Open Sans', sans-serif;
+}
+
+.featuredPage h4 {
+	color: #001f3f;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 #title2 {
@@ -160,6 +169,33 @@ a:hover{
 	border-top: 5px solid black;
 }
 
+/*Tips Page Styling*/
+#contentWrapper {
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	color: #001f3f;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	margin-bottom: 1em;
+}
+
+#contentWrapper ul li {
+	padding: .5em;
+	list-style: none;
+}
+
+#contactUs {
+	float: left;
+	padding-left: 30%;
+	color: #FF851B;
+}
+
+#contactUs2 {
+	float: left;
+	padding-left: 10px;
+	color: #FF851B;
+}
 
 /*Footer Styling*/
 
