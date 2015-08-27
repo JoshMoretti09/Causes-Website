@@ -64,6 +64,7 @@ a:hover{
 	background-image: url("../img/catdog.jpg");
 	width: 666px;
 	height: 500px;
+	border-radius: 50px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -110,7 +111,7 @@ a:hover{
 	margin: 0px 5px 5px 5px;
 }
 
-.dog {
+.dog, .featuredPage img {
 	border-radius: 50px;
 }
 
@@ -145,7 +146,7 @@ a:hover{
 	margin: 0 auto;
 	margin-top: 2em;
 	text-align: center;
-	width: 60%;
+	width: 50%;
 	-webkit-column-count: 2;
     -moz-column-count: 2; 
     column-count: 2;
@@ -158,11 +159,12 @@ a:hover{
 /*Featured Pet Page Styling*/
 .featuredPage {
 	padding: 1em;
-	margin: 0 auto;
+	margin: 50px; auto;
 	-webkit-column-count: 3;
     -moz-column-count: 3; 
     column-count: 3;
 }
+
 #pageBreak {
 	margin-right: 50px;
 	margin-left:50px;
@@ -185,16 +187,45 @@ a:hover{
 	list-style: none;
 }
 
+/*contact page styling*/
+
 #contactUs {
 	float: left;
 	padding-left: 30%;
 	color: #FF851B;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#contactUs input, textarea {
+	margin: 10px;
 }
 
 #contactUs2 {
 	float: left;
-	padding-left: 10px;
+	padding-left: 100px;
 	color: #FF851B;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bottomLinks h3 {
+	color: #FF851B;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#pscpa {
+	clear: both;
+	padding-left: 35%;
+	padding-top: 20px;
+}
+
+#contactWrapper {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    padding-left: 35%;
+    margin-top: 25px;
 }
 
 /*Footer Styling*/
