@@ -226,7 +226,13 @@ a:hover{
     column-count: 2;
     padding-left: 35%;
     margin-top: 25px;
+    min-width: 250px;
+    margin-right: 110px;
 }
+
+/*#rescue {
+	margin: 0 auto;
+}*/
 
 /*Footer Styling*/
 
