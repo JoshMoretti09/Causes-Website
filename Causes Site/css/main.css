@@ -159,7 +159,7 @@ a:hover{
 /*Featured Pet Page Styling*/
 .featuredPage {
 	padding: 1em;
-	margin: 0; auto;
+	margin: 0 auto;
 	width: 80%;
 	-webkit-column-count: 3;
     -moz-column-count: 3; 
